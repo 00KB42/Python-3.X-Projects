@@ -1,4 +1,5 @@
-# Prompts user for height of triangle be created and then prints "hello world!" (normal sequence + reversed)
+# prompts user for height of triangle to be created
+# prints "hello world!" (forward and reversed)
 
 height = int(input("Enter a height for your triangle: "))
 str = "hello world!"
