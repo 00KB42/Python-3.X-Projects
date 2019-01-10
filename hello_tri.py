@@ -2,6 +2,9 @@
 # prints "hello world!" (forward and reversed)
 
 height = int(input("Enter a height for your triangle: "))
+if height <= 0:
+    print("Not a valid integer")
+    exit()
 str = "hello world!"
 i = 0
 space_amt = 0
