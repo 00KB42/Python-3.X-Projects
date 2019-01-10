@@ -1,9 +1,12 @@
-str = input("Provide a passage to reveal the number of times each letter appears: ")
+# To open from terminal:
+# python3 num_of_each_letter.py
+
+passage = input("Provide a string to reveal the number of times each letter appears: ")
 i , ctr = 0, 0
 letter = 'a'
 letter_detected = False
 while i is not 26:
-    for x in str:
+    for x in passage:
         if x is chr(ord(letter)):
             ctr += 1
     if ctr is not 0:
